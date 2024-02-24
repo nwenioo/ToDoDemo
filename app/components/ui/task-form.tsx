@@ -22,7 +22,13 @@ export function TaskForm(){
              <button>Save</button>
 
         </form>
-
+        {/* to show save task list */}
+        <ul>
+            {store.map((s:string)=>(
+            <li key={s}>{s}</li> 
+            // key={s} -dom tree that keep object id 
+            ))}
+        </ul>
     </div>
     ); 
     

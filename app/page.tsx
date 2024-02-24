@@ -5,7 +5,7 @@ React
 export default function Home() {
   return (
   <div>
-    <h1>Daily Tasks</h1>
+    {/* <h1>Daily Tasks</h1> */}
     <TaskForm/>
   </div>
   );
